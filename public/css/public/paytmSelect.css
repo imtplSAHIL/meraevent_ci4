@@ -1,0 +1,86 @@
+.PayExpressPage {font-family: 'Open Sans',sans-serif;}
+.PayExpressPageTop {margin-top:40px; font-family: 'Open Sans',sans-serif;}
+.PayExpressPageTop p{font-size: 16px;}
+div.PayExpressContainer{ background-color: #ffffff; padding: 0 !important;  border:1px solid #ddd; margin:15px 0 50px 0; -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175); box-shadow: 0 6px 12px rgba(0,0,0,.175); -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175); font-family: 'Open Sans',sans-serif;overflow: auto; /* background-clip: padding-box;  */  }
+div.PayExpressMenu{padding-right: 0; padding-left: 0; padding-bottom: 0; }
+div.PayExpressMenu div.list-group{margin-bottom: 0; text-align: left; }
+div.PayExpressMenu div.list-group>a{margin-bottom: 0; }
+div.PayExpressMenu div.list-group>a .glyphicon,
+div.PayExpressMenu div.list-group>a .fa {color: #5A55A3; }
+div.PayExpressMenu div.list-group>a:first-child{border-top-right-radius: 0; -moz-border-top-right-radius: 0; border-top-left-radius: 0; -moz-border-top-left-radius: 0; }
+div.PayExpressMenu div.list-group>a:last-child{border-bottom-right-radius: 0; -moz-border-bottom-right-radius: 0; border-bottom-left-radius: 0; -moz-border-bottom-left-radius: 0; }
+div.PayExpressMenu div.list-group>a.active,
+div.PayExpressMenu div.list-group>a.active .glyphicon,
+div.PayExpressMenu div.list-group>a.active .fa{background-color: #999; color: #ffffff; outline: none; border: none; }
+
+div.PayExpressContainer .list-group-item {padding: 12px 15px; border-top-right-radius: 0px;
+                                          border-top-left-radius: 0px; border-bottom: 1px solid #dddddd; border-right: 1px solid #ddd;
+                                          border-left: 1px solid #ddd; border-top:0px solid transparent;}
+
+/* div.PayExpressMenu div.list-group>a.active:after{content: ''; position: absolute; left: 100%; top: 50%; margin-top: -13px; border-left: 0; border-bottom: 13px solid transparent; border-top: 13px solid transparent; border-left: 10px solid #5A55A3; } */
+div.PayExpressTabContent{background-color: #ffffff; padding-left: 10px;float: left; width: 100%; padding-top: 20px; /*height: auto; overflow: auto; border: 1px solid #eeeeee;*/  }
+div.PayExpressTab div.PayExpressTabContent:not(.active){display: none; }
+
+.PayExpressOptionHolder {margin-bottom: 10px; float: left; width: 100%; /*height: auto; overflow: auto;*/}
+.PayExpressOptionHolder .form-group{padding:5px 0; margin-bottom: 5px; font-size: 13px; width: 100%;
+                                    float: left;}
+.PayExpressOptionHolder .form-group label{float:left; width:100%;}
+.PayExpressOptionHolder .form-group input[type="text"], .PayExpressOptionHolder .form-group input[type="password"], .PayExpressOptionHolder .form-group select{ border:1px solid #ccc; padding:6px 5px; border-radius: 3px; -moz-border-radius: 3px; width: 100%; }
+.PayExpressOptionHolder .cardno{width: 23% !important; margin-right: 5px; }
+.PayExpressOptionHolder .input50{width: 50% !important; margin-right: 5px; }
+
+#PayExpressTypeLogos {float: left; width:100%;}
+
+#PayExpressTypeLogos li {background-color: rgba(7, 7, 7, 0.01); border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 3px 3px 3px 3px; display: block; float: left; margin: 4px 4px 10px 4px; padding: 6px 6px 0 20px; width: auto; }
+
+#PayExpressTypeLogos li input {vertical-align: top; }
+#PayExpressTypeLogos li > label > img { }
+
+.Marg0 {margin: 0 !important;}
+.Padd0 {padding: 0 !important;}
+.PayExpressPaynow {padding: 10px 20px !important; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size: 14px; color: #fff; background: #9063cd; text-align: center; border: 0 !important; margin:15px 0; }
+.PayExpressBackBtn { float: left; width: auto; color: #5f259f; text-decoration: underline;}
+
+.PayExpressSavedCards {border:1px solid #ccc; background: #f9f9f9; padding:10px; margin:10px 0 20px; float: left; width: 100%;}
+.SavedCVV {border:1px solid #ccc; padding:4px 5px; border-radius: 3px; -moz-border-radius: 3px; width: 50px; float: right;}
+
+.PayExpressIcons {}
+
+.PayWithWallet {border:1px solid #ddd; background: #f9f9f9; padding:10px 20px; margin:20px 0 10px 0; float: left; width: 100%; font-family: 'Open Sans',sans-serif;}
+
+.WalletTextContainer {border:1px solid #ddd; background: #fff; padding: 5px 10px; float: left; margin:10px 0; }
+.WalletTextContainer span{font-size: 12px; margin-bottom: 10px; width: 100%; float: left;} .WalletTextContainer p{font-size: 18px; margin-bottom: 5px; width: 100%; font-weight: bold;}
+.WalletSeperator { margin: 0 10px; float: left; }
+.WalletSeperator p{ font-size: 28px; color: #333; line-height: 80px;}
+
+.PaywithWalletCheck {}
+.PaywithWalletCheck label{ font-size: 16px; font-weight: bold; margin-bottom:20px; color: #9063cd; }
+
+.pay-greenmsg {color: green; font-size: 12px;}
+.pay-errormsg {color: red; font-size: 12px;}
+
+.payfromwalletContainer{ padding: 5px 10px; float: left; margin:10px 0;}
+@media screen and (max-width: 360px) {
+
+    .Padd360-0 {padding:0 !important;}
+    .PayExpressPageTop {margin-top:20px;}
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .PayExpressIcons img{ width: 100%; }
+    div.PayExpressTabContent {padding-left:0;}
+    .Marg480-0 {margin: 0 !important;}
+    .Padd480-0 {padding: 0 !important;}
+    .PayExpressOptionHolder .form-group select.cardno {width:33% !important;}
+    .PayExpressOptionHolder .cardno {width:22% !important;}
+    .PayExpressOptionHolder .input50 {width: 100% !important;}
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .PayExpressPageTop p {text-align: left !important;}
+}
+

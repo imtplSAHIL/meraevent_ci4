@@ -1,0 +1,157 @@
+ /* @media only screen and (min-width:768px) and (max-width:1200px) {
+         .wizard768 {min-width: 768px; max-width: 768px;  margin-left: auto; margin-right: auto; } } */
+        .wizard768 {max-width: 768px; margin: 0 auto;}
+         .wizard-container {padding: 50px 0 100px 0; z-index: 3; font-family: 'Open Sans',sans-serif !important;} 
+         .wizard-container .wizard-navigation { position: relative; }
+         .wizard-container .wizard-navigation {position: relative; } 
+         .wizard-container .wizard-navigation .tabhighlight{position: relative;
+         background: #9063cd;
+         color: #fff !important; width: 100%; } 
+         .wizard-header {/* background: #9063cd; padding: 5px 0 0 0; margin-bottom: 5px; */}         
+         .card {background-color: #FFFFFF; padding: 5px 0 20px 0; width: 100%; border-radius: 6px; color: rgba(0,0,0, 0.87); background: #fff; } 
+         .wizard-card {min-height: auto; border: 2px solid #eee; }
+         .wizard-card .nav-tabssection > li { text-align: center; }
+         .wizard-card .info-text {text-align: left; font-weight: 400; font-size: 16px; margin: 15px 0 200px 0; font-family: 'Open Sans',sans-serif !important;}
+         .widget-container {padding:0px; height: auto; overflow: auto;}
+         .wizard-title h2, .wizard-location p { font-family: 'Open Sans',sans-serif !important;  }
+         .wizard-title h2{font-size: 16px; padding: 0 15px 7px 15px; margin: 5px 0 0 0; font-weight: bold; color: #9063cd;} 
+         .wizard-location p { font-size: 12px; padding: 0px 15px 2px 15px; margin: 0; color: #666;}
+         .wizard-location p a{color: #666; text-decoration: none;}
+         .wizard-location p:last-child { padding: 0px 15px 10px 15px;}
+         .widget-namesection{}
+         .widget-tickettype {border-bottom: 1px solid #ededed; height: auto; overflow: auto; padding:15px;}
+         .widget-tickettype:last-child {border-bottom: 0px;}
+         .widget-tickettype .ticket_selector {width: auto !important;}
+         .widget-ticketname{ font-size: 14px; font-weight: normal; color: #000; padding: 0; margin: 0;} 
+         .widget-desc {padding: 0px 0px 2px 0px; margin: 0; font-size: 12px; color: #666;} 
+         .widget-saledate { margin: 0; padding: 0 0 2px 0; font-size: 11px; color: #666; font-style: italic;} 
+         .widget-applicablediscounts { margin: 0; padding: 0 0 2px 0; font-size: 12px; color: #05ab31;
+    font-weight: bold;}
+    .widgetseatingwidth {width: 98% !important; margin: 0 auto; margin-bottom: 30px; margin-top: 20px; }
+    .widgetseatingwidthinfo {width: 90% !important; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; }
+         .widgettext-SoldOut {color: #f00; font-weight: bold;}
+         .widgettext-ComingSoon {color: #26B14B; font-weight: bold;} 
+         .widget-DonationAmount {font-size: 16px; font-weight: 600; text-align: right; padding-top: 0px; font-weight: normal;} 
+         .widget-DonationTicket { text-align: left;} 
+         .widget-DonationInput { width: 60px; display: inline-flex; float: right; margin-left: 5px; border: 1px solid #ccc;} 
+         .taxtext { color: #f60; font-style: italic;}
+         .widget-ticketgroup {border-bottom: 1px solid #d9d9d9; margin-bottom: 0px;}
+         .widget-grouptitle {font-size: 15px; color: #f60; padding: 10px 15px 0px 15px; font-weight: bold;}
+         .widgetnotes {font-size: 14px; color: #333; font-weight: normal; line-height: normal; padding: 5px 15px 10px 15px;}
+         .widget-price {}
+         .widget-price p {font-size: 16px; font-weight: 600; text-align: right; padding-top: 0px; font-weight: normal;}
+         .widget-quantity {text-align: right;}
+         .widget-quantity select {padding: 5px 10px; border: 1px solid #d2d2d2; font-size: 15px; color: #666; }
+         .wizard-container .nav {padding-left: 0; margin-bottom: 0; list-style: none; }
+         .wizard-container .nav>li {position: relative; display: block; width: 33%;}
+         .wizard-container .nav>li>a {position: relative; display: block; padding: 10px 15px; }
+         .wizard-container .nav-tabssection {background-color: rgba(200, 200, 200, 0.2); }
+         .wizard-container .nav-tabssection>li {float: left; font-weight: 400; /*border-right: 1px solid #e0e0e0;*/ }
+         /* .wizard-container .nav-tabssection>li:first-child, .wizard-container .nav-tabssection>li:last-child {border-right: none;} */
+         .wizard-container .nav-tabssection>li>a {border-radius: 4px; }
+         /* .wizard-container .nav-tabssection > li + li {margin-left: 0 !important;} */
+         .wizard-container .nav-tabssection > li.active > a, 
+         .wizard-container .nav-tabssection > li.active > a:hover, 
+         .wizard-container .nav-tabssection > li.active > a:focus, 
+         .wizard-container .nav-tabssection > li > a:hover, 
+         .wizard-container .nav-tabssection > li > a:focus {}
+         .wizard-container .nav-tabssection>li.active>a, 
+         .wizard-container .nav-tabssection>li.active>a:focus, 
+         .wizard-container .nav-tabssection>li.active>a:hover { color: #fff; }
+         .wizard-container .nav-tabssection > li > a {border: 0 !important; border-radius: 0; line-height: 18px; text-transform: uppercase; font-size: 12px; font-weight: 600; min-width: 100px; text-align: center; color: #333 !important; cursor: pointer; }
+         .widget-discountcontainer { height: auto; overflow: auto; padding: 25px 15px 30px 15px;}
+         .widget-discountcontainer input[type="text"] {
+         border-bottom: 1px solid #adadad; border-top: none; border-left: none; border-right: none; padding: 5px 5px 2px 5px; margin-right: 5px; }
+         .widgetapply {padding: 5px 10px; background: #adadad; color: #fff; cursor: pointer; font-size: 12px; }
+         .w-mb20 {margin-bottom: 20px;}
+         .widget-tandc {padding: 15px;}
+         .widget-tandc p{font-size: 12px; font-weight: bold;}
+         .widget-tandc p a{color: #f60; text-decoration: underline;}
+         .widgetapply:hover {color: #fff; opacity: 0.9;}
+         .widget-totalamountdiv { height: auto; overflow: hidden; }
+         .widget-amountcontainer {height: auto; overflow: hidden; padding: 5px 0; font-size: 15px; }
+         .widget-tleft {text-align: left; margin-bottom: 5px;}
+         .widget-tright {text-align: right; margin-bottom: 5px;}
+         .widget-amountcontainer span {text-align: left; float: left; margin-left: 20px; }
+         /* Registration CSS */
+         .registration-container {padding:15px 5px; height: auto; overflow: auto;}
+         .registration-container input[type='text'], .registration-container input[type='email'], .registration-container input[type='password'] {padding:6px 12px; border: 1px solid #d4d4d4; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;}
+         .registration-container .form-group label {font-size: 13px; font-weight: bold; color: #333 !important;}
+         .registration-container .form-group label.error { color: #f00 !important; font-size: 12px; }
+         .widget-attendetext {padding: 5px 15px 15px 15px; color: #9063cd; font-weight: bold;}
+         .registration-container .widget-checkbox, .registration-container .widget-radio {padding-right: 20px; line-height: 29px;  }
+         label.widget-checkbox, label .widget-radio {font-weight: normal !important;}
+         .registration-container input[type="radio"], .registration-container input[type="checkbox"] {margin: 4px;}
+         .registration-container .intl-tel-input input[type="text"].mobileNoFlags { padding-left: 90px !important;}
+         /* Registration CSS */
+         .iframetab-content #ticket_registration input[type='text'] { height: 36px !important; }         
+         .wizard-paymentgateways { height: auto; padding: 30px 0 0 0; }
+         .wizard-gatewaytext {margin-bottom: 5px; display: inline-block;}
+         .wizard-gatewaytext label {display: inline; margin-bottom: 5px; font-size: 14px;}
+         .wizard-gatewaytext input[type="radio"] { margin-right: 5px; }
+         .wizard-paymentgateways .gateway-imgholder {}
+         .wizard-paymentgateways .gateway-imgholder img{}
+         .wizard-gatewayholder {margin-bottom: 40px;}         
+         /* Offers Text Section */
+         .widget-payment-offers {margin: 20px 0 10px 0;}
+         /* MeraWallet Section */
+         .merawallet-payment-holder { margin: 10px 0 0 0; background: #f4f4f4; padding-top: 15px; padding-bottom: 15px;} 
+         .merawallet-balance {font-family: 'Open Sans',sans-serif; font-size: 18px; font-weight: normal; color: #333333; padding: 5px 20px; margin: 0; }
+         .merawallet-balance span{ width: 100%; display: inline-block; margin: 3px 0; }
+         .merawallet-poweredby{ padding: 0 0 0 10px; margin: 0; }
+         .merawallet-poweredby img{width: auto;}
+         .widget-poweredby {width: auto; float: left; height: auto; margin: 20px 0 0 10px;}
+         .widget-poweredby img{width: auto;}
+         /* MeraWallet Section */         
+         /* Wizard Footer & Buttons */
+         .wizard-card .wizard-footer { padding: 0 15px; display: inline-block; width: auto; float: right; }
+         .wizard-footer {}
+         .widgetinline {display: inline-block !important;}
+         .widgetwidth {width: 100% !important;}
+         .widgetwidthinlnie {width: 100% !important; display: inline-block !important;}
+         .wizard-card[data-color="red"] .moving-tab {position: absolute; text-align: center; padding:14px 12px; font-size: 12px; text-transform: uppercase; -webkit-font-smoothing: subpixel-antialiased; background-color: #9063cd; top: -4px; left: 0px; border-radius: 4px; color: #FFFFFF; cursor: pointer; font-weight: 500; }
+         .button { border: none; border-radius: 3px; position: relative; padding: 12px 30px; margin: 10px 1px; font-size: 12px; font-weight: 400; text-transform: uppercase; letter-spacing: 0; will-change: box-shadow, transform; transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);}
+         .button.nextstep {background-color: #9063cd; color: #FFFFFF; text-transform: uppercase;} 
+         .button.previousstep, .button.previousstep:hover { background-color: #999999; color: #FFFFFF; }
+         @media (min-width: 768px) {.button-wd { min-width: 140px; } }  
+         @media only screen and (min-width:280px) and (max-width:600px) {
+         /* .TWOne-tleft, .TWOne-tright {padding:0;} */
+         .widget-namesection {width: 100%;}
+         .widget-price {width: 48%; text-align: left;} 
+         .widget-price p{text-align: left; padding:10px 0 0 0; font-weight: 600; } 
+         .widget-tickettype, .widget-price p {font-size: 14px;}
+         .widget-quantity {width:48%;}
+         .widget-discountcontainer input[type="text"]  {width:150px;}
+         .widget-DonationTicket {float: left;}
+         .widget-DonationInput { width: 100px; margin-left: 5px; float: none;} 
+         
+         }
+         @media only screen and (min-width:601px) and (max-width:900px) {
+         /* .TWOne-BookNow {width: 80%;} */
+         }
+         @media only screen and (min-width:280px) and (max-width:767px) {
+         .widget-totalamountdiv {margin-top:30px;}
+         .widget-amountcontainer {font-size: 14px;}
+         }
+
+.widget-acc-btn {width:100%; margin:0 auto; padding:0px; cursor:pointer; border-bottom: 1px solid #d9d9d9; }
+.widget-acc-btn p { font:500 16px/16px 'Open Sans', sans-serif; /*color:#333;*/ padding: 18px 15px; margin: 0px; }
+.widget-acc-content {  height:0px; width:100%; margin:0 auto; overflow:hidden;/*  background:#2C3E50; */ }
+.widget-acc-content-inner {padding:5px 10px; }
+.widget-open {height: auto; }
+.widget-ac-selected { background-color: #f1f1f1; }
+
+.widget-ac-selected i.icon2-angle-right{
+-webkit-transition:all 300ms ease-in 0s;
+-moz-transition: all 300ms ease-in 0s;
+-o-transition: all 300ms ease-in 0s;
+transition: all 300ms ease-in 0s;
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+
+.widget-highlight {background-color: #ccc;}
+.multidateoption-select {padding: 10px 15px;}
